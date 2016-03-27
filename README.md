@@ -84,10 +84,8 @@ Import:
 
 'openAlgorithm.type.string.subPart.haskell'
 ```
-Import:
-- Name: Data.Vector
-----------
 slice start length str
+take length . drop start $ str
 ```
 
 'openAlgorithm.type.string.subPart.java':
@@ -111,12 +109,11 @@ When the user now generates code for haskell using the algorithm 'jonasrudolph.e
 ```
 module Jonasrudolph.Example.EchoFirstTenCharacters
 where
-  import Data.Vector
   
   -- Prints the first ten characters of stdinput
   main = do
     input <- getLine
-    putStrLn $ slice 0 10 input
+    putStrLn $ take 10 . drop 0 $ input
 ```
 
 And when the user now generates code for java using the same algorithm he gets:
