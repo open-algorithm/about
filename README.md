@@ -106,7 +106,7 @@ System.out.println(str)
 
 When the user now generates code for haskell using the algorithm 'jonasrudolph.example.echoFirstTenCharacters' he gets:
 'output/jonasrudolph.example.echoFirstTenCharacters.hs'
-```
+```haskell
 module Jonasrudolph.Example.EchoFirstTenCharacters
 where
   
@@ -118,7 +118,7 @@ where
 
 And when the user now generates code for java using the same algorithm he gets:
 'output/jonasrudolph/example/EchoFirstTenCharacters.java'
-```
+```java
 package jonasrudolph.example;
 
 import java.util.Scanner;
