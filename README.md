@@ -1,3 +1,5 @@
+### Info: This is an idea of a project which I have. It is currently not ment to be used by someone else. But if you find it useful or interesting I am open for any ideas and improvements.
+
 # About open-algorithm
 The goal is a software which translates algorithms into code. For doing this, the software shall use syntax-definitions of programming languages. So the main function would be (Algorithm-Name x Programming-Lanugage-Name -> Code)
 By doing this, the software can generate any kind of code which can be described using the syntax-definition-format, which should preferrably describe context-senstive-grammars.
@@ -84,7 +86,6 @@ Import:
 
 'openAlgorithm.type.string.subPart.haskell'
 ```
-slice start length str
 take length . drop start $ str
 ```
 
